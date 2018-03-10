@@ -1,7 +1,7 @@
 # WTW
 ![Logo of the project](http://icons-ak.wxug.com/i/c/k/partlycloudy.gif)
 
-# Whatever the Weather &middot; [![Build Status](http://icons-ak.wxug.com/i/c/k/partlycloudy.gif)](https://travis-ci.org/npm/npm) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
+# Whatever the Weather &middot;  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
 > Additional information or tag line
 
 Sample website with Weather API : https://www.wunderground.com/ with AJAX.
