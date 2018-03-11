@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Whatever the Weather</title>
+  <meta description="Inspiring and True : Jordan B. Peterson's 12 Rules For Success">
+  
+  <!-- CSS Styles
+================================================== -->
+  <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+  <link rel="stylesheet" href="css/wtw.css">
+
+  <!-- Favicon
+================================================== -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- No JS alternative
+================================================== -->
+  <noscript>
+    Your browser does not support JavaScript!
+  </noscript>
+  
+</head>
+
+<body class="d-flex flex-column justify-content-between">
+
+  <!-- Main Navigation
+================================================== -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light pl-5">
+    <a href="#" class="navbar-brand">Whatever the Weather</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a href="#" id="home" data-name="home" data-template="homeTpl" class="nav-link active">Home</a></li>
+        <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rules for Life </a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#" data-name="rule 1" data-template="ruleTpl">Rule 1</a>
+                <a class="dropdown-item" href="#" data-name="rule 2" data-template="ruleTpl">Rule 2</a>
+                <a class="dropdown-item" href="#" data-name="rule 3" data-template="ruleTpl">Rule 3<a>
+                <a class="dropdown-item" href="#" data-name="rule 4" data-template="ruleTpl">Rule 4</a>
+                <a class="dropdown-item" href="#" data-name="rule 5" data-template="ruleTpl">Rule 5</a>
+                <a class="dropdown-item" href="#" data-name="rule 6" data-template="ruleTpl">Rule 6</a>
+                <a class="dropdown-item" href="#" data-name="rule 7" data-template="ruleTpl">Rule 7</a>
+                <a class="dropdown-item" href="#" data-name="rule 8" data-template="ruleTpl">Rule 8</a>
+                <a class="dropdown-item" href="#" data-name="rule 9" data-template="ruleTpl">Rule 9</a>
+                <a class="dropdown-item" href="#" data-name="rule 10" data-template="ruleTpl">Rule 10</a>
+                <a class="dropdown-item" href="#" data-name="rule 11" data-template="ruleTpl">Rule 11</a>
+                <a class="dropdown-item" href="#" data-name="rule 12" data-template="ruleTpl">Rule 12</a>
+              </div>
+            </li>
+        </li>
+        <li class="nav-item"><a href="#" id="contact" class="nav-link" data-name="summary" data-template="paginationTpl">Summary</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- Content
+================================================== -->
+
+  <div id="container" class="container-fluid d-lg-flex"></div>
+
+  <!-- Footer
+================================================== -->
+  <footer class=" mt-auto p-3 text-center bg-light">
+        <p>Based on <a href="https://jordanbpeterson.com/">Jordan B. Peterson's 12 Rules For Life</a> and <a href="https://www.wunderground.com/"><img src="http://icons.wxug.com/graphics/wu2/logo_130x80.png" alt="logo wunderground.com" width="35"></a></p>
+  </footer>
+    
+  <!-- Scripts of Bootstrap -->
+  <!-- jQuery added only as Bootstrap component   
+================================================== -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--  Scripts for Monogo's task (Website with Weather API) : Vanilla Javascript : ES6
+================================================== -->
+  <script src="js/ui.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+
+</body> 
+</html>
