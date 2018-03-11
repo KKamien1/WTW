@@ -1,0 +1,325 @@
+/* Whatever the Weather css theme what overwrite bootstrap LUX theme */
+
+
+/* 
+Images come from https://unsplash.com
+Authors: Florian Biedermann, Brad Barmore, Cynthia Magana, 
+Markus Spiske, Derek Thomson, Khara Woods, Pete Wright, Nick Diamantidis, Jack Sharp, Jason Rosewell, Norbert Levajsics. Jordan Whitt, Sebastian Molina, Markus Spiske
+*/
+
+#content {
+  transition: all 1s ease-in-out;
+}
+
+#content {
+  background-size: cover !important;
+  overflow: hidden;
+}
+
+.bg0 { background: url(../img/bg-home.jpg) }
+.bg1 { background: url(../img/rule1.jpg) }
+.bg2 { background: url(../img/rule2.jpg) }
+.bg3 { background: url(../img/rule3.jpg) }
+.bg4 { background: url(../img/rule4.jpg) }
+.bg5 { background: url(../img/rule5.jpg) }
+.bg6 { background: url(../img/rule6.jpg) }
+.bg7 { background: url(../img/rule7.jpg) }
+.bg8 { background: url(../img/rule8.jpg) }
+.bg9 { background: url(../img/rule9.jpg) }
+.bg10 { background: url(../img/rule10.jpg) }
+.bg11 { background: url(../img/rule11.jpg) }
+.bg12 { background: url(../img/rule12.jpg) }
+
+/* Headline color adjustment depending on background image */
+
+.page1, .page4, .page7, .page9, .page11, .page12 {
+  color: white;
+}
+
+/*  Modified Bootstrap classes*/
+.container-fluid {
+  padding: 0;
+  flex-grow: 2;
+}
+
+.nav-link {
+  border-bottom: 1px solid #fff;
+  transition: all .5s;
+}
+
+.card-title {
+  color: #1f9bcf;
+}
+
+#lead {
+  font-size: 1.3em;
+  transition: all 1s;
+  padding: 1.5em;
+  text-shadow: 1px 1px 2px #fff;
+  color: #575f65;
+}
+
+.lead-bg {
+  background: rgba(255,255,255,.85);
+  padding: .5em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 800;
+  color: #1f9bcf;
+}
+
+/* Navigation style & hover effect */
+.nav-link.active {
+  border-bottom: #1f9bcf 1px solid;
+}
+
+nav a, .page-link {
+  position: relative;
+}
+
+nav a:before, .page-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #1f9bcf;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+nav a:hover:before, .page-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+/* Added classes */
+
+.value-info {
+  font-size: 2em;
+  color: #1f9bcf;
+}
+
+.cards {
+  min-height: 60vh;
+}
+
+.no-space {
+  margin: 0;
+  padding: 0;
+}
+
+.wtw-blue {
+  color: #d4edff;
+  text-shadow: 1px 1px 1px #333;
+}
+
+/* Default properties modified */
+body {
+  min-height: 100vh;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer p {
+  margin: .5rem;
+}
+
+
+/* Main blocks */
+#container.flex-column {
+  background: url(../img/bg.jpg) #637795 no-repeat right bottom -20px !important;
+}
+
+#content {
+  flex-grow: 1;
+  flex-basis: 67%;
+}
+
+#weather {
+  flex-grow: 1;
+  flex-basis: 33%;
+}
+
+/* Animations and other effects */
+#heading {
+  transition: all .5s;
+}
+
+.card {
+  transition: all .3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px rgba(25,25,25,.25);
+}
+
+#weather-icon {
+  position: relative;
+  -webkit-animation-name: cloud;
+ /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+ /* Safari 4.0 - 8.0 */
+  animation-name: cloud;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cloud {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  33% {
+    left: -10px;
+    top: 0px;
+  }
+
+  66% {
+    left: 10px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/* Standard syntax */
+@keyframes cloud {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  33% {
+    left: -10px;
+    top: 0px;
+  }
+
+  66% {
+    left: 10px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#heading, #headline, .card {
+  position: relative;
+  opacity: 1;
+  -webkit-animation-name: totop;
+ /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .5s;
+ /* Safari 4.0 - 8.0 */
+  animation-name: totop;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes totop {
+  0% {
+    left: 0px;
+    top: -20px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+/* Standard syntax */
+@keyframes totop {
+  0% {
+    left: 0px;
+    top: -20px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+#heading {
+  animation-delay: 0;
+}
+
+#headline {
+  animation-delay: .2s;
+}
+
+.card {
+  background-color: rgba(255,255,255,.75)
+  -webkit-animation-name: slideTop;
+ /* Safari 4.0 - 8.0 */
+  animation-name: slideTop;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slideTop {
+  0% {
+    transform: translate3d(0px, 10px, 0px);
+    transform: scale(.96);
+  }
+
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+    transform: scale(1);
+  }
+}
+
+/* Standard syntax */
+@keyframes slideTop {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+    visibility: 0;
+  }
+
+  50% {
+    transform: translate3d(0px, 10px, 0px);
+    visibility: 0;
+  }
+
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+    visibility: 1;
+  }
+}
+
+/* classes for cards on page with pagination  */
+.animation-delay0 {
+  animation-duration: .5s;
+}
+
+.animation-delay1 {
+  animation-duration: .5s;
+  animation-delay: .2s;
+}
+
+.animation-delay2 {
+  animation-duration: .5s;
+  animation-delay: .4s;
+}
