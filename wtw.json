@@ -3,10 +3,11 @@
       "id":1,
       "name":"home",
       "site": "WHATEVER THE WEATHER",
-      "headline":"It's The Perfect Weather",
-      "headlineend": " to Make Your Life Better",
+      "headline":"It's The Perfect Weather to",
+      "headlineend": "Make Your Life Better",
       "rule":"The 12 Most Valuable Things Everyone Should Know is self-help with smarts, an introduction to philosophy, mythology and the science of the mind, and a practical, engaging guide to a better life.",
-      "intro":"Dr. Peterson journeys broadly, discussing discipline, freedom, adventure, and responsibility, distilling the world’s wisdom into 12 practical and profound rules for life. ",
+      "intro":"Dr. Peterson journeys broadly, discussing discipline, freedom, adventure, and responsibility, distilling the world’s wisdom into. ",
+      "subintro": "12 practical and profound rules for life",
       "btn":"Take An Antidote to Chaos"
    },
    {
