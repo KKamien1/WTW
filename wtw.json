@@ -69,7 +69,7 @@
       "name":"rule 8",
       "headline":"",
       "rule":"Tell the truth. Or at least don’t lie ",
-      "intro":"To be honest, I’m scrabbling around for thingsbut my publishers tell me I need 12. By telling you the Truth about this, I am an Improved Being. Certainly better than you.",
+      "intro":"To be honest, I’m scrabbling around for things but my publishers tell me I need 12. By telling you the Truth about this, I am an Improved Being. Certainly better than you.",
       "btn":"Next rule"
    },
    {
@@ -108,8 +108,8 @@
       "id":14,
       "name":"summary",
       "headline":"",
-      "rule":"Pet a cat when you encounter one in the street",
-      "intro":"OK. So I really am scraping the barrel now. We’re all going to die. Probably painfully. So just make the best of what you’ve got. If you see a cat, stroke it. You might feel better. Though probably not. And if there are no cats, pet something else. Like a dog.",
+      "rule":"",
+      "intro":"",
       "btn":"Home"
    }
 ]
