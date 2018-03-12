@@ -1,7 +1,7 @@
 # WTW
 ![Logo of the project](http://icons-ak.wxug.com/i/c/k/partlycloudy.gif)
 
-# Whatever the Weather &middot;  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
+# Whatever the Weather &middot; 
 
 Sample website with Weather API : https://www.wunderground.com/ with AJAX.
 
