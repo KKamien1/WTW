@@ -322,3 +322,10 @@ footer p {
   animation-duration: .5s;
   animation-delay: .4s;
 }
+
+// background adjustment on Summary page 
+@media only screen and (min-width: 1400px) {
+  #container.flex-column {
+    background-size: cover !important;
+  }
+}
