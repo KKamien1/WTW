@@ -281,13 +281,15 @@ footer p {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes slideTop {
   0% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+
+  50% {
     transform: translate3d(0px, 10px, 0px);
-    transform: scale(.96);
   }
 
   100% {
     transform: translate3d(0px, 0px, 0px);
-    transform: scale(1);
   }
 }
 
@@ -295,17 +297,14 @@ footer p {
 @keyframes slideTop {
   0% {
     transform: translate3d(0px, 0px, 0px);
-    visibility: 0;
   }
 
   50% {
     transform: translate3d(0px, 10px, 0px);
-    visibility: 0;
   }
 
   100% {
     transform: translate3d(0px, 0px, 0px);
-    visibility: 1;
   }
 }
 
