@@ -117,6 +117,9 @@ const site = {
 // siteData instance is responsible for collecting data from Weather API and site content data (json)
 const siteData = new DataCollector()
 
+// ui set of templates home | rule | summary
+const ui = new UI()
+
 // Collecting data from two sources with fetch and Promises
 // After resolve both Promises data is assigned to site object
 siteData.waitUntilGotData(siteData.getFetchPromise(site.weatherJsonUrl), siteData.getFetchPromise(site.dataJsonUrl))
@@ -128,9 +131,6 @@ siteData.waitUntilGotData(siteData.getFetchPromise(site.weatherJsonUrl), siteDat
     site.init()
     console.log('Site data succesfully loaded')
   })
-
-// ui set of templates home | rule | summary
-const ui = new UI()
 
 // Background images preloader function
 site.bgPreloader(site.bgImages)
