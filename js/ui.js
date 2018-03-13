@@ -78,9 +78,7 @@ class UI {
       const a = document.createElement('a')
       const numTxt = document.createTextNode(i)
       li.classList.add('page-item')
-      if (site.activePaginationPage === i) {
-        li.classList.add('active')
-      }
+      if (site.activePaginationPage === i) li.classList.add('active')
       a.classList.add('page-link')
       a.dataset.page = i
       a.setAttribute('href', '#')
