@@ -107,7 +107,7 @@ class UI {
     }
 
     // Add Event Listeners for pagination buttons
-    const btns = document.querySelectorAll('.page-link');
+    const btns = document.querySelectorAll('.page-link')
     [...btns].forEach(btn => btn.addEventListener('click', displayPaginationPage))
   }
 
